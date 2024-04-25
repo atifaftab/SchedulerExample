@@ -8,21 +8,32 @@
     <url>http://maven.apache.org</url>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.quartz-scheduler/quartz -->
+        <!--        <dependency>-->
+        <!--            <groupId>org.quartz-scheduler</groupId>-->
+        <!--            <artifactId>quartz</artifactId>-->
+        <!--            <version>2.3.2</version>-->
+        <!--        </dependency>-->
+        <!--&lt;!&ndash;        <dependency>&ndash;&gt;-->
+        <!--&lt;!&ndash;            <groupId>org.quartz-scheduler</groupId>&ndash;&gt;-->
+        <!--&lt;!&ndash;            <artifactId>quartz-jobs</artifactId>&ndash;&gt;-->
+        <!--&lt;!&ndash;            <version>2.3.2</version>&ndash;&gt;-->
+        <!--&lt;!&ndash;        </dependency>&ndash;&gt;-->
+        <!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.slf4j/slf4j-simple &ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.slf4j</groupId>-->
+        <!--            <artifactId>slf4j-simple</artifactId>-->
+        <!--            <version>2.0.7</version>-->
+        <!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.quartz-scheduler/quartz -->
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
             <artifactId>quartz</artifactId>
             <version>2.3.2</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.quartz-scheduler</groupId>-->
-<!--            <artifactId>quartz-jobs</artifactId>-->
-<!--            <version>2.3.2</version>-->
-<!--        </dependency>-->
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>2.0.7</version>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.slf4j</groupId>-->
+        <!--            <artifactId>slf4j-nop</artifactId>-->
+        <!--            <version>2.0.13</version> &lt;!&ndash; or the latest version &ndash;&gt;-->
+        <!--        </dependency>-->
     </dependencies>
 </project>
